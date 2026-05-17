@@ -1,4 +1,4 @@
-# Compact 10-Bit Stochastic Number Generator (SNG)
+# Power Efficient Compact 10-Bit LFSR Stochastic Number Generator (SNG)
 
 ## Optimized for Low Correlation and Dynamic Power Gating 
 Stochastic Computing (SC) is a powerful paradigm for hardware efficient arithmetic, but its accuracy is heavily dependent on the quality of the bitstreams. This project implements an optimized 10-bit SNG that resolves two major bottlenecks: high inter-stream correlation and excessive switching power in Linear Feedback Shift Registers (LFSRs).
