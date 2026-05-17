@@ -7,15 +7,14 @@ Stochastic Computing (SC) is a powerful paradigm for hardware efficient arithmet
 
 By moving from a standard 8-bit baseline to a shared 10-bit architecture with integrated clock gating, this design achieved a 73% reduction in dynamic power and a significant improvement in computational accuracy.
 
-| Metric          | Baseline 8-Bit | Optimized 10-Bit            | Improvement |
+| Metric | Baseline 8-Bit | Optimized 10-Bit | Improvement |
+| :--- | :--- | :--- | :--- |
+| Total Power | 1.542 W | 0.457 W | -70.3% |
+| SCC Correlation | 0.26 | 0.10 | -61.5% |
+| Random States | 255 | 1,023 | +300% |
+| Critical Delay | 3.521 ns | 3.521 ns | Stable |
 
-| Total Power     | 1.542 W        | 0.457 W                     | -70.3%      |
-
-| SCC Correlation | 0.26           | 0.10                        | -61.5%      |
-
-| Random States   | 255            | 1,023                       | +300%       |
-
-| Critical Delay  | 3.521 ns       | 3.521 ns                    | Stable      |
+---
 
 ## Technical Features
 
